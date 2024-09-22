@@ -1,0 +1,43 @@
+
+
+Crear un nuevo repositorio público en GitHub, gitLab o herramienta de su selección con el
+nombre 
+Programa-git
+
+------------
+>git init
+>git branch -M master
+>git checkout -b master
+
+----------
+Añadirlo al repositorio local del Programa.
+> git remote add ''controlName'' ''githubUrl''
+> git remote -v
+
+-----------------------
+Agregar los cambios del repositorio local al repositorio remoto de GitHub o GitLab.
+>git push github master
+
+-----
+Acceder a GitHub o GitLab y comprobar que se han subido los cambios mostrando el historial de versiones.
+
+-------
+Agregar el archivo kotlin.txt que contenga el nombre del usuario y su correo electrónico.
+
+> cat > kotlin.txt
+JharriisTcK
+jeizzonnsg@soy.sena.edu.co
+
+----------
+Agregar los cambios.
+>git status
+>git add .
+>git status
+
+-----------
+Realizar un commit con el mensaje “Añadido datos.”
+> git commit -m "Añadido datos."
+
+---------
+Cargar cambios al repositorio remoto.
+> git push -u origin main
